@@ -12,6 +12,11 @@
 
 body {
   font-family: 'Poppins';
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .wrap {
@@ -23,7 +28,7 @@ body {
   text-align: center;
   width: 100%;
   background-color: var(--bg-color);
-  margin: 15px 15px;
+  margin: 15px 0px;
 }
 
 .banner {
